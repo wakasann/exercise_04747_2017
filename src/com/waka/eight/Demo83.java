@@ -14,11 +14,11 @@ public class Demo83 {
 		panel.setBackground(Color.ORANGE);
 		panel.setSize(300, 100);
 		
-		JButton button = new JButton("µã»÷ÎÒ",new ImageIcon("gur-project/gur-project-03.png"));
+		JButton button = new JButton("ç‚¹å‡»æˆ‘",new ImageIcon("gur-project/gur-project-03.png"));
 		button.setSize(100, 50);
-		button.setToolTipText("ÎÒÊÇ´øÓĞÍ¼±êµÄButton");
+		button.setToolTipText("æˆ‘æ˜¯å¸¦æœ‰å›¾æ ‡çš„Button");
 		
-		JLabel lable = new JLabel("ÎÒÖ»ÊÇ1¸öÎÄ±¾Label");
+		JLabel lable = new JLabel("æˆ‘åªæ˜¯1ä¸ªæ–‡æœ¬Label");
 		
 		panel.add(button,BorderLayout.AFTER_LAST_LINE);
 		panel.add(lable,BorderLayout.AFTER_LAST_LINE);
@@ -28,13 +28,13 @@ public class Demo83 {
 		frame.setVisible(true);
 		
 		//@link https://blog.csdn.net/u012151974/article/details/22735365
-		int windowWidth = frame.getWidth(); //»ñµÃ´°¿Ú¿í
-		int windowHeight = frame.getHeight(); //»ñµÃ´°¿Ú¸ß
-		Toolkit kit = Toolkit.getDefaultToolkit(); //¶¨Òå¹¤¾ß°ü
-		Dimension screenSize = kit.getScreenSize(); //»ñÈ¡ÆÁÄ»µÄ³ß´ç
-		int screenWidth = screenSize.width; //»ñÈ¡ÆÁÄ»µÄ¿í
-		int screenHeight = screenSize.height; //»ñÈ¡ÆÁÄ»µÄ¸ß
-		frame.setLocation(screenWidth/2-windowWidth/2, screenHeight/2-windowHeight/2);//ÉèÖÃ´°¿Ú¾ÓÖĞÏÔÊ¾ 
+		int windowWidth = frame.getWidth(); //è·å¾—çª—å£å®½
+		int windowHeight = frame.getHeight(); //è·å¾—çª—å£é«˜
+		Toolkit kit = Toolkit.getDefaultToolkit(); //å®šä¹‰å·¥å…·åŒ…
+		Dimension screenSize = kit.getScreenSize(); //è·å–å±å¹•çš„å°ºå¯¸
+		int screenWidth = screenSize.width; //è·å–å±å¹•çš„å®½
+		int screenHeight = screenSize.height; //è·å–å±å¹•çš„é«˜
+		frame.setLocation(screenWidth/2-windowWidth/2, screenHeight/2-windowHeight/2);//è®¾ç½®çª—å£å±…ä¸­æ˜¾ç¤º 
 		
 		frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
 		

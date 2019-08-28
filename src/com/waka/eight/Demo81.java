@@ -4,24 +4,24 @@ import java.awt.*;
 import javax.swing.*;
 
 /**
- *  µÚ°ËÕÂ ³ÌĞò8.1
+ *  ç¬¬å…«ç«  ç¨‹åº8.1
  * @author wakasann
  *
  */
 public class Demo81 {
 	
 	public static void main(String[] args) {
-		//´´½¨Ò»¸öÓÖ±êÌâµÄJFrameÊµÀı
+		//åˆ›å»ºä¸€ä¸ªåˆæ ‡é¢˜çš„JFrameå®ä¾‹
 		JFrame frame = new JFrame("Demo8.1");
-		//´´½¨Ò»¸öJButton°´Å¥£¬°´Å¥ÎÄ±¾ÊÇ"Press me"
+		//åˆ›å»ºä¸€ä¸ªJButtonæŒ‰é’®ï¼ŒæŒ‰é’®æ–‡æœ¬æ˜¯"Press me"
 		JButton button = new JButton("Press me");
-		//½«°´Å¥·Åµ½JFrameµÄÖĞÑë
+		//å°†æŒ‰é’®æ”¾åˆ°JFrameçš„ä¸­å¤®
 		frame.getContentPane().add(button,BorderLayout.CENTER);
-		//½«JFrameÉèÖÃÎªÊÊµ±´óĞ¡
+		//å°†JFrameè®¾ç½®ä¸ºé€‚å½“å¤§å°
 		frame.pack();
-		//ÏÔÊ¾JFrame
+		//æ˜¾ç¤ºJFrame
 		frame.setVisible(true);
-		//ÍË³öÊ±¹Ø±Õ´°¿Ú
+		//é€€å‡ºæ—¶å…³é—­çª—å£
 		frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
 	}
 }
